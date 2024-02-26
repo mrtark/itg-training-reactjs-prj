@@ -51,6 +51,8 @@ import Assignment100224BK from "./assignments/burak/ListCountries"; //14.02.24
 import Assignment100224BK2 from "./assignments/burak/ButtonResizer"; //14.02.24 
 import ProductsPage from "./axiosSample/ProductsPage.jsx";
 import FavoritesPage from "./context/FavoritesPage.jsx";
+import SiteFooter  from "./components/SiteFooter.tsx";
+import ProductsDataGrid from "./dayThreeTraining/ProductsDataGrid.jsx";
 //import CustomerPage from "./axiosSample/CustomerPage.jsx";
 //import MainMenu from "./assignments/muhsin/MainMenu";
 
@@ -72,7 +74,8 @@ function App() {
   //return <CustomerPage/>
   //return <AddProduct/>;
   //return <AddProduct2/>;
-  //return <Intro/>;
+  //return <Intro/>; //ITGButton
+  //return <ProductsDataGrid/>
   /**17.02.24 10:00-15:30 ONSITE */
 
   /**15.02.24 20:00-21:26 ONLINE */
@@ -208,7 +211,7 @@ URL: https://northwind.vercel.app/api/categories
     <ObjectArraySample/>
     <ObjectArrayTry1235/> */}
 
-    <p>Site Footer</p>
+    <SiteFooter/>
 
  </>
 }

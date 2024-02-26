@@ -4,7 +4,8 @@ import React from 'react'
 
 function ITGButton(props) {
   return (
-    <Button size="large" color='error'>{props.children}</Button>
+    //<Button size="large" color='error'>{props.children}</Button>
+    <Button variant='contained' color='error'>{props.children}</Button>
   )
 }
 
