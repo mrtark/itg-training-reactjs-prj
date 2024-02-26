@@ -1,5 +1,6 @@
 import React, {useEffect,useState} from 'react';
 import axios from 'axios';
+import { axiosInstance } from './axiosInstance';
 //17.02.24 Ogleoncesi oturumu
 function CustomerPage() {
 
@@ -10,6 +11,7 @@ function CustomerPage() {
     }, [])
 
     const loadCustomers = () => {
+       // axiosInstance.get('customers')
         axios.get('https://northwind.vercel.app/api/customers')
             .then(res => {
                 setcustomers(res.data);

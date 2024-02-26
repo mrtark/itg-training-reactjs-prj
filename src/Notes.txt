@@ -1,0 +1,53 @@
+ 
+ /************ASSIGNMENT-1**************/
+  "1. part 3 adet soru ektedir. Bitiren arkadaş olursa devamını da yazacağım. 
+  https://docs.google.com/document/d/1h3mYZXRTuAho50LlIUk2qXX3gEVqaFoFJgwMuzsMgP8/edit?usp=sharing"
+
+ /************ASSIGNMENT-2**************/
+ /*********21.02.24 12:30***************/
+ “* Aşağıda belirtilen url den datalar çekilip ( id, customerId, orderDate ve shippedDate kolonları ) datagrid içerisinde gösterilecek
+* Tarih kolonlarında format "02 Mayıs 2023 Perşembe" olmalıdır
+* En sağ kolonda bir silme butonu olup, silme işlemi gerçekleşmelidir.
+* Datagrid Türkçe olmalıdır
+URL: https://northwind.vercel.app/api/orders
+Ekranda name ve description adında iki input ve bir button olmalı. Butona tıkladığınızda aşağıda belirtilen url e data POST edilmelidir.
+URL: https://northwind.vercel.app/api/categories
+“
+Muhsin: Assignment sent 22.02.24  REQUIRE: >> npm install @mui/x-data-grid
+Bilal: Assignment sent 23.02.24  REQUIRE: >>  npm install react-grid-system --save
+İhsan: Assignment sent 23.02.24  REQUIRE: >> npm install dayjs --save >> npm install dayjs-ext --save
+
+ 
+ /***************10.02.24 09:00-16:25 ONSITE*************/
+  App.js =>
+   {/* 
+   <ul>
+    <li><Link to="/about">About</Link></li>
+    <li><Link to="/contact">Contact</Link></li>
+    <li><Link to="/suppliers">Suppliers</Link></li>
+    <li><Link to="/stateintro">StateIntro</Link></li>  
+    <li><Link to="/statearray">StateArray</Link></li> */}
+  </ul> 
+  */}
+
+  {/* Asagidaki yazis tarzi browsera tum html yukluyor bunun yerine yukarıdaki Link i kullan
+  {/* 
+  <ul>
+    <li><a href="/about">About</a></li>    
+    <li><a href="/contact">Contact</a></li>       
+  </ul> */}
+
+     {/* CTRL+kc => commenting lines of code
+    <SiteHeader></SiteHeader>
+    <SiteContent></SiteContent>
+    <SiteFooter></SiteFooter>
+    <JsxEventSample></JsxEventSample>
+    <ProductBox name="soğan" unitPrice={30} points={[3,5,4,7]}></ProductBox>
+    <UserDetail name="Murat" surname="Yılmaz" age={20}></UserDetail>
+    <ObjectArraySample/>
+    <ObjectArrayTry1235/> */}
+/***************10.02.24 09:00-16:25 ONSITE*************/
+assignments/serhat needs: tailwind library
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
