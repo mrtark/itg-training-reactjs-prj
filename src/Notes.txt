@@ -1,23 +1,42 @@
  
  /************ASSIGNMENT-1**************/
+ /*********12.02.24 15:00***************/
   "1. part 3 adet soru ektedir. Bitiren arkadaş olursa devamını da yazacağım. 
   https://docs.google.com/document/d/1h3mYZXRTuAho50LlIUk2qXX3gEVqaFoFJgwMuzsMgP8/edit?usp=sharing"
+Perihan: Assignment sent 12.02.24 
+Duhan: Assignment sent 13.02.24 
+Serhat: Assignment sent 13.02.24 
+Murat: Assignment sent 13.02.24 
+Bilal: Assignment sent 13.02.24 
+EnverBurak: Assignment sent 14.02.24 
+Akif: Assignment sent 15.02.24 
+İhsan: Assignment sent 15.02.24 
+Muhsin: Assignment sent 15.02.24 
+Alp: Assignment sent 15.02.24 
+Çiğdem: Assignment sent 15.02.24 
+Emre: Assignment sent 15.02.24 
+Arzu: Assignment sent 15.02.24 
+Furkan: Assignment sent 16.02.24 
+İsmail: Assignment sent 22.02.24 
+ /************ASSIGNMENT-1**************/
 
  /************ASSIGNMENT-2**************/
  /*********21.02.24 12:30***************/
  “* Aşağıda belirtilen url den datalar çekilip ( id, customerId, orderDate ve shippedDate kolonları ) datagrid içerisinde gösterilecek
-* Tarih kolonlarında format "02 Mayıs 2023 Perşembe" olmalıdır
-* En sağ kolonda bir silme butonu olup, silme işlemi gerçekleşmelidir.
-* Datagrid Türkçe olmalıdır
-URL: https://northwind.vercel.app/api/orders
-Ekranda name ve description adında iki input ve bir button olmalı. Butona tıkladığınızda aşağıda belirtilen url e data POST edilmelidir.
-URL: https://northwind.vercel.app/api/categories
-“
+  * Tarih kolonlarında format "02 Mayıs 2023 Perşembe" olmalıdır
+  * En sağ kolonda bir silme butonu olup, silme işlemi gerçekleşmelidir.
+  * Datagrid Türkçe olmalıdır
+  URL: https://northwind.vercel.app/api/orders
+  Ekranda name ve description adında iki input ve bir button olmalı. Butona tıkladığınızda aşağıda belirtilen url e data POST edilmelidir.
+  URL: https://northwind.vercel.app/api/categories
+  “
+Murat: Assignment sent as application link 22.02.24 =>  https://mrtark.github.io/itg-react-tutorial/
 Muhsin: Assignment sent 22.02.24  REQUIRE: >> npm install @mui/x-data-grid
 Bilal: Assignment sent 23.02.24  REQUIRE: >>  npm install react-grid-system --save
 İhsan: Assignment sent 23.02.24  REQUIRE: >> npm install dayjs --save >> npm install dayjs-ext --save
+Çiğdem: Assignment sent 27.02.24  
+ /************ASSIGNMENT-2**************/
 
- 
  /***************10.02.24 09:00-16:25 ONSITE*************/
   App.js =>
    {/* 

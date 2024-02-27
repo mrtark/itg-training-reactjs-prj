@@ -1,0 +1,10 @@
+date format kütüphanaleri: dayjs > moment
+>> npm install @mui/x-data-grid
+>> npm install dayjs --save 
+>> npm install dayjs-ext --save
+json Server: yapılacak projede backend hazır olmadığında ve mevcut public datalar işe uygun olmadığında faydalanmak üzere kullanılır
+    **terminalden proje stop sonrası **https://www.npmjs.com/package/json-server
+    >> npm install json-server
+    **src dizin paraleline db.json konfig dosyası ekle
+
+Eğitimkayıt: dakika => 5:45:37
