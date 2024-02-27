@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import { axiosInstance } from '../../axiosSample/axiosInstance'
-import { DataGrid , trTR} from '@mui/x-data-grid';
+import { DataGrid , trTR } from '@mui/x-data-grid';//
+//import trTR from '@mui/x-data-grid/locale/trTR'; // Import Turkish locale
+
 import { Button, Grid } from '@mui/material'
 import dayjs from 'dayjs';
+//require('dayjs/locale/tr')
+//dayjs().locale('tr').format() // use loaded locale locally
 //27.02.24
  /************ASSIGNMENT-2**************/
 /* Aşağıda belirtilen url den datalar çekilip ( id, customerId, orderDate ve shippedDate kolonları ) datagrid içerisinde gösterilecek
@@ -50,7 +54,8 @@ function Assignment170224() {
         renderCell:(params)=>{return dayjs(params.row.orderDate).format("DD MMMM YYYY dddd")}},
         {field:"shippedDate",headerName:"Shipped Date",width:190,
         renderCell:(params)=>{return dayjs(params.row.shippedDate).format("DD MMMM YYYY dddd")}},
-         {field:"Delete",headerName:"Delete",width:100, 
+        // renderCell:(params)=>{return new Date(params.row.shippedDate).format("DD MMMM YYYY dddd").toLocaleString()}},
+        {field:"Delete",headerName:"Delete",width:100, 
         renderCell:(params)=>{return <Button onClick={() => deleteOrder(params.row.id)}>Delete</Button>}}
     ]
     const ccolumns = [
@@ -88,11 +93,11 @@ function Assignment170224() {
         <Grid item sm={4}>
             <h3>Order List</h3>
             <div style= {{height:400}}>
-                <DataGrid rows ={orders} columns={ocolumns} localeText={trTR.components.MuiDataGrid.defaultProps.localeText} />
+                <DataGrid rows ={orders} columns={ocolumns}  localeText={trTR.components.MuiDataGrid.defaultProps.localeText} />
             </div>
         </Grid>
         <Grid item sm={4}>
-            <h3>Category CRUD</h3>
+            <h3>Category Definition</h3>
             <div>
                 <label htmlFor="">Name:</label>
                 <input type="text" onChange={(e)=> setname(e.target.value)}/>

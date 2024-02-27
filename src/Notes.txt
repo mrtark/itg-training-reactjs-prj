@@ -35,6 +35,9 @@ Muhsin: Assignment sent 22.02.24  REQUIRE: >> npm install @mui/x-data-grid
 Bilal: Assignment sent 23.02.24  REQUIRE: >>  npm install react-grid-system --save
 İhsan: Assignment sent 23.02.24  REQUIRE: >> npm install dayjs --save >> npm install dayjs-ext --save
 Çiğdem: Assignment sent 27.02.24  
+Perihan: Assignment sent 27.02.24  
+Emre: Assignment sent 27.02.24  
+Alp: Assignment sent 27.02.24  REQUIRE: >> npm install moment --save
  /************ASSIGNMENT-2**************/
 
  /***************10.02.24 09:00-16:25 ONSITE*************/

@@ -37,6 +37,8 @@ import Assignment100224BT from "./assignments/bilal/CountriesClass";
 import Assignment100224BT2 from "./assignments/bilal/Button";
 import Assignment170224BT from "./assignments/bilal/TablePage";
 import Assignment100224AC from "./assignments/alp/StateHW.tsx"; //P.K. ERROR: Module not found: Error: Can't resolve './assignments/alp/StateHW' in 'C:\Users\user\Desktop\itg-training-prj\src'
+import Assignment170224AC from "./assignments/alp/OrdersHWDataGrid.tsx";
+import Assignment170224AC2 from "./assignments/alp/CategoriesHWDataGrid.tsx";
 //P.K.:https://stackoverflow.com/questions/71885069/module-not-found-error-cant-resolve-the-typescript-file-when-adding-typescrip
 import Assignment100224SB from "./assignments/serhat/CountryPage.tsx"; 
 import Assignment100224SB2 from "./assignments/serhat/Button.tsx"; 
@@ -128,6 +130,8 @@ URL: https://northwind.vercel.app/api/categories
     <li><Link to="/assignment1BT2">Bilal-Ass1-Button</Link></li>
     <li><Link to="/assignment2BT">Bilal-Ass2-Datatable</Link></li>
     <li><Link to="/assignment1AC">Alp-Ass1</Link></li> 
+    <li><Link to="/assignment2AC">Alp-Ass2-SiparişListesi</Link></li> 
+    <li><Link to="/assignment2AC2">Alp-Ass2-KategoriEkle</Link></li> 
     <li><Link to="/assignment1SB">Serhat-Ass1</Link></li>
     <li><Link to="/assignment1SB2">Serhat-Ass1-Button</Link></li>
     <li><Link to="/assignment1CK">Çiğdem-Ass1</Link></li>
@@ -194,6 +198,9 @@ URL: https://northwind.vercel.app/api/categories
     <Route path="/assignment1BT2" element={<Assignment100224BT2/>} />
     <Route path="/assignment2BT" element={<Assignment170224BT/>} />
     <Route path="/assignment1AC" element={<><Assignment100224AC vendorId="50187"/></>} /> 
+    <Route path="/assignment2AC" element={<Assignment170224AC/>} />
+    <Route path="/assignment2AC2" element={<Assignment170224AC2/>} />
+    
     <Route path="/assignment1SB" element={<Assignment100224SB/>} />
     <Route path="/assignment1SB2" element={<Assignment100224SB2/>} />
     <Route path="/assignment1CK" element={<Assignment100224CK/>} />
