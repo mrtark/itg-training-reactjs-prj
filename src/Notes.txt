@@ -39,7 +39,12 @@ Perihan: Assignment sent 27.02.24
 Emre: Assignment sent 27.02.24  
 Alp: Assignment sent 27.02.24  REQUIRE: >> npm install moment --save
 Akif: Assignment sent 28.02.24  
+
+Serhat: Assignment sent 28.02.24 REQUIRE: >>  npm i react-query  ; REQUIRE adding tsconfig.json in project globally; Fixedcategory post url extension
+Arzu: Assignment sent 28.02.24 yapılmış akşam entegre edilecek
+İsmail: Assignment sent 28.02.24 yapılmış akşam entegre edilecek
 Duhan: Assignment sent 28.02.24 yapılmış akşam entegre edilecek
+
  /************ASSIGNMENT-2**************/
 
  /***************10.02.24 09:00-16:25 ONSITE*************/

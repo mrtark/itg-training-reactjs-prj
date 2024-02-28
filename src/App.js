@@ -42,6 +42,10 @@ import Assignment170224AC2 from "./assignments/alp/CategoriesHWDataGrid.tsx";
 //P.K.:https://stackoverflow.com/questions/71885069/module-not-found-error-cant-resolve-the-typescript-file-when-adding-typescrip
 import Assignment100224SB from "./assignments/serhat/CountryPage.tsx"; 
 import Assignment100224SB2 from "./assignments/serhat/Button.tsx"; 
+import Assignment170224SB from "./assignments/serhat/SerhatApp2.tsx"; 
+// import Assignment170224SB from "./assignments/serhat/OrderPage.tsx"; 
+// import Assignment170224SB2 from "./assignments/serhat/CategoryAdd.tsx"; 
+
 import Assignment100224CK from "./assignments/cigdem/Odev2"; 
 import Assignment100224CK2 from "./assignments/cigdem/Odev"; 
 import Assignment170224CK from "./assignments/cigdem/Odev3"; //27.02.24
@@ -136,6 +140,10 @@ URL: https://northwind.vercel.app/api/categories
     <li><Link to="/assignment2AC2">Alp-Ass2-KategoriEkle</Link></li> 
     <li><Link to="/assignment1SB">Serhat-Ass1</Link></li>
     <li><Link to="/assignment1SB2">Serhat-Ass1-Button</Link></li>
+    <li><Link to="/assignment2SB">Serhat-Ass2</Link></li>
+    {/* <li><Link to="/assignment2SB">Serhat-Ass2-SiparişListesi</Link></li>
+    <li><Link to="/assignment2SB2">Serhat-Ass2-KategoriEkle</Link></li> */}
+
     <li><Link to="/assignment1CK">Çiğdem-Ass1</Link></li>
     <li><Link to="/assignment1CK2">Çiğdem-Ass1-Button</Link></li>
     <li><Link to="/assignment2CK">Çiğdem-Ass2-OrdersDataTable</Link></li>
@@ -201,12 +209,16 @@ URL: https://northwind.vercel.app/api/categories
     <Route path="/assignment1BT" element={<Assignment100224BT/>} />     
     <Route path="/assignment1BT2" element={<Assignment100224BT2/>} />
     <Route path="/assignment2BT" element={<Assignment170224BT/>} />
+
     <Route path="/assignment1AC" element={<><Assignment100224AC vendorId="50187"/></>} /> 
     <Route path="/assignment2AC" element={<Assignment170224AC/>} />
     <Route path="/assignment2AC2" element={<Assignment170224AC2/>} />
     
     <Route path="/assignment1SB" element={<Assignment100224SB/>} />
     <Route path="/assignment1SB2" element={<Assignment100224SB2/>} />
+    <Route path="/assignment2SB" element={<Assignment170224SB/>} /> 
+
+
     <Route path="/assignment1CK" element={<Assignment100224CK/>} />
     <Route path="/assignment1CK2" element={<Assignment100224CK2/>} />
     <Route path="/assignment2CK" element={<Assignment170224CK/>} />

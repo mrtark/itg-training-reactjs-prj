@@ -1,0 +1,4 @@
+22.02.24 PERŞEMBE ONLINE 20:00-21:30
+
+react query/tanstackquery---çok firma yoğunlukla kullanılıyomuş :https://tanstack.com/query/v3/ (arkada fetch altyapısı kullanan geliştmiş paket, cache vs. mekanizması var)
+>> npm i react-query  //alternatif paketi: swr.vercel.app //diğerindeki gibi custom hook imkanı veriyor,cache mekanizması,vs.diğerine göre artısı daha light bir paket olması

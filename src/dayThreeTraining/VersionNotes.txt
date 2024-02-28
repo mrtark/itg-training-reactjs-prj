@@ -8,3 +8,6 @@ json Server: yapılacak projede backend hazır olmadığında ve mevcut public d
     **src dizin paraleline db.json konfig dosyası ekle
 
 Eğitimkayıt: dakika => 5:45:37
+
+
+//PK. Note Warning on runtime browserconsole: MUI: The page size `30` is not preset in the `pageSizeOptions` Add it to show the pagination select. at GridPagination
