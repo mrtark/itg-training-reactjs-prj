@@ -38,6 +38,8 @@ Bilal: Assignment sent 23.02.24  REQUIRE: >>  npm install react-grid-system --sa
 Perihan: Assignment sent 27.02.24  
 Emre: Assignment sent 27.02.24  
 Alp: Assignment sent 27.02.24  REQUIRE: >> npm install moment --save
+Akif: Assignment sent 28.02.24  
+Duhan: Assignment sent 28.02.24 yapılmış akşam entegre edilecek
  /************ASSIGNMENT-2**************/
 
  /***************10.02.24 09:00-16:25 ONSITE*************/

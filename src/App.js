@@ -48,6 +48,8 @@ import Assignment170224CK from "./assignments/cigdem/Odev3"; //27.02.24
 import Assignment170224CK2 from "./assignments/cigdem/Odev4"; //27.02.24
 import Assignment100224AY from "./assignments/akif/CountryList"; 
 import Assignment100224AY2 from "./assignments/akif/ExpandingButton"; 
+import Assignment170224AY from "./assignments/akif/OrderList.jsx"; 
+import Assignment170224AY2 from "./assignments/akif/AddCategory.jsx"; 
 import Assignment100224AS from "./assignments/arzu/CountryList"; //15.02.24
 import Assignment100224AS2 from "./assignments/arzu/Homework"; //15.02.24
 import Assignment100224FO from "./assignments/furkan/StateCountries"; //16.02.24
@@ -140,6 +142,8 @@ URL: https://northwind.vercel.app/api/categories
     <li><Link to="/assignment2CK2">Çiğdem-Ass2-CategoryAdd</Link></li>
     <li><Link to="/assignment1AY">Akif-Ass1</Link></li>
     <li><Link to="/assignment1AY2">Akif-Ass1-Button</Link></li>
+    <li><Link to="/assignment2AY">Akif-Ass2-SiparişListesi</Link></li>
+    <li><Link to="/assignment2AY2">Akif-Ass2-CategoriEkle</Link></li>
     <li><Link to="/assignment1AS">Arzu-Ass1</Link></li>
     <li><Link to="/assignment1AS2">Arzu-Ass1-Button</Link></li>
     <li><Link to="/assignment1FO">Fukan-Ass1</Link></li>
@@ -209,6 +213,8 @@ URL: https://northwind.vercel.app/api/categories
     <Route path="/assignment2CK2" element={<Assignment170224CK2/>} />
     <Route path="/assignment1AY" element={<Assignment100224AY/>} />
     <Route path="/assignment1AY2" element={<Assignment100224AY2/>} />
+    <Route path="/assignment2AY" element={<Assignment170224AY/>} />
+    <Route path="/assignment2AY2" element={<Assignment170224AY2/>} />
     <Route path="/assignment1AS" element={<Assignment100224AS/>} />
     <Route path="/assignment1AS2" element={<Assignment100224AS2/>} />
     <Route path="/assignment1FO" element={<Assignment100224FO/>} />

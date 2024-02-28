@@ -5,8 +5,8 @@ import { DataGrid , trTR } from '@mui/x-data-grid';//
 
 import { Button, Grid } from '@mui/material'
 import dayjs from 'dayjs';
-//require('dayjs/locale/tr')
-//dayjs().locale('tr').format() // use loaded locale locally
+require('dayjs/locale/tr');
+dayjs().locale('tr'); // use loaded locale locally
 //27.02.24
  /************ASSIGNMENT-2**************/
 /* Aşağıda belirtilen url den datalar çekilip ( id, customerId, orderDate ve shippedDate kolonları ) datagrid içerisinde gösterilecek
