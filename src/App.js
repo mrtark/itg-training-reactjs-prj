@@ -20,6 +20,8 @@ import Assignment100224PK from "./assignments/perihan/Assignment100224";
 import Assignment170224PK from "./assignments/perihan/Assignment170224";//27.02.24
 import Assignment100224DE from "./assignments/duhan/ShowCountry";
 import Assignment100224DE2 from "./assignments/duhan/BigButton";
+import Assignment170224DE from "./assignments/duhan/HomePage.jsx";
+
 import AllInOne from "./assignments/murat/AllInOne";//Odev1
 import Assignment100224EC from "./assignments/emre/Countries";
 import Assignment100224EC2 from "./assignments/emre/Buyuyen_Buton";
@@ -71,6 +73,8 @@ import ProductsPage from "./axiosSample/ProductsPage.jsx";
 import FavoritesPage from "./context/FavoritesPage.jsx";
 import SiteFooter  from "./components/SiteFooter.tsx";
 import ProductsDataGrid from "./dayThreeTraining/ProductsDataGrid.jsx";
+import PostPage from "./assignments/duhan/PostPage.jsx";
+import DataGridPage from "./assignments/duhan/DataGridPage.jsx";
 //import CustomerPage from "./axiosSample/CustomerPage.jsx";
 //import MainMenu from "./assignments/muhsin/MainMenu";
 
@@ -125,6 +129,7 @@ URL: https://northwind.vercel.app/api/categories
     <li><Link to="/assignment2PK">Perihan-Ass2</Link></li>
     <li><Link to="/assignment1DE">Duhan-Ass1</Link></li>
     <li><Link to="/assignment1DE2">Duhan-Ass1-Button</Link></li>
+    <li><Link to="/assignment2DE">Duhan-Ass2</Link></li>
     <li><Link to="/assignment1MA">Murat-AllInOne-App</Link></li> 
     <li><Link to="/assignment1IB">Ihsan-Ass1</Link></li>
     <li><Link to="/assignment1IB2">Ihsan-Ass1-Button</Link></li>
@@ -193,25 +198,29 @@ URL: https://northwind.vercel.app/api/categories
 
     <Route path="/assignment1PK" element={<Assignment100224PK/>} /> 
     <Route path="/assignment2PK" element={<Assignment170224PK/>} /> 
+
      <Route path="/assignment1DE" element={<Assignment100224DE/>} />
     <Route path="/assignment1DE2" element={<Assignment100224DE2/>} />
-    {/* <Route path="/assignment1MA" element={<Assignment100224MA/>} /> */}
+    <Route path="/assignment2DE" element={<Assignment170224DE/>} />
+      <Route path="/DataGridPage" element={<DataGridPage/>} />
+      <Route path="/PostPage" element={<PostPage/>} />
+
+   {/* <Route path="/assignment1MA" element={<Assignment100224MA/>} /> */}
     <Route path="/assignment1MA" element={<AllInOne/>} />
     {/* <Route path="/"><AllInOne/></Route> */}
+
     <Route path="/assignment1IB" element={<Assignment100224IB/>} />
     <Route path="/assignment1IB2" element={<Assignment100224IB2/>} />
     <Route path="/assignment2IB" element={<Assignment170224IB/>} />
 
     <Route path="/assignment1MY" element={<Assignment100224MY/>} />
     <Route path="/assignment1MY2" element={<Assignment100224MY2/>} />
-
     <Route path="/assignment2MY" element={<Assignment170224MY/>} />
     <Route path="/assignment2MY2" element={<Assignment170224MY2/>} />
-    <Route path="/categoriesList" element={<Assignment170224MYEK/>} />
+        <Route path="/categoriesList" element={<Assignment170224MYEK/>} />
 
     <Route path="/assignment1EC" element={<Assignment100224EC/>} />
     <Route path="/assignment1EC2" element={<Assignment100224EC2/>} />
-     
     <Route path="/assignment2EC" element={<Assignment170224EC/>} />
     <Route path="/assignment2EC2" element={<Assignment170224EC2/>} />
      
@@ -226,10 +235,12 @@ URL: https://northwind.vercel.app/api/categories
     <Route path="/assignment1SB" element={<Assignment100224SB/>} />
     <Route path="/assignment1SB2" element={<Assignment100224SB2/>} />
     <Route path="/assignment2SB" element={<Assignment170224SB/>} /> 
+
     <Route path="/assignment1CK" element={<Assignment100224CK/>} />
     <Route path="/assignment1CK2" element={<Assignment100224CK2/>} />
     <Route path="/assignment2CK" element={<Assignment170224CK/>} />
     <Route path="/assignment2CK2" element={<Assignment170224CK2/>} />
+
     <Route path="/assignment1AY" element={<Assignment100224AY/>} />
     <Route path="/assignment1AY2" element={<Assignment100224AY2/>} />
     <Route path="/assignment2AY" element={<Assignment170224AY/>} />
@@ -239,13 +250,15 @@ URL: https://northwind.vercel.app/api/categories
     <Route path="/assignment1AS2" element={<Assignment100224AS2/>} />
     <Route path="/assignment2AS" element={<Assignment170224AS/>} />
     <Route path="/assignment2AS2" element={<Assignment170224AS2/>} />
-    
+
     <Route path="/assignment1FO" element={<Assignment100224FO/>} />
     <Route path="/assignment1FO2" element={<Assignment100224FO2/>} />
+
     <Route path="/assignment1IA" element={<Assignment100224IA/>} />
     <Route path="/assignment1IA2" element={<Assignment100224IA2/>} />
     <Route path="/assignment2IA" element={<Assignment170224IA/>} />
     <Route path="/assignment2IA2" element={<Assignment170224IA2/>} />
+    
     <Route path="/assignment1BK" element={<Assignment100224BK/>} />
     <Route path="/assignment1BK2" element={<Assignment100224BK2/>} />
 {/* https://mrtark.github.io/itg-react-tutorial/ */}

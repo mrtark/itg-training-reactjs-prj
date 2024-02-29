@@ -43,7 +43,7 @@ Akif: Assignment sent 28.02.24
 Serhat: Assignment sent 28.02.24 REQUIRE: >>  npm i react-query  ; REQUIRE adding tsconfig.json in project globally; Fixedcategory post url extension
 Arzu: Assignment sent 28.02.24 
 İsmail: Assignment sent 28.02.24 
-Duhan: Assignment sent 28.02.24 yapılmış akşam entegre edilecek
+Duhan: Assignment sent 28.02.24 
 
 
  /************ASSIGNMENT-2**************/
