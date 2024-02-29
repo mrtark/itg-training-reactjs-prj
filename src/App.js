@@ -60,6 +60,9 @@ import Assignment100224FO from "./assignments/furkan/StateCountries"; //16.02.24
 import Assignment100224FO2 from "./assignments/furkan/StateButton"; //16.02.24 
 import Assignment100224IA from "./assignments/ismail/CountryList"; //21.02.24 
 import Assignment100224IA2 from "./assignments/ismail/StateChange"; //21.02.24  
+import Assignment170224IA from "./assignments/ismail/OrderPage.jsx"; //28.02.24 
+import Assignment170224IA2 from "./assignments/ismail/AddCategory.jsx"; //28.02.24 
+
 import Assignment100224BK from "./assignments/burak/ListCountries"; //14.02.24
 import Assignment100224BK2 from "./assignments/burak/ButtonResizer"; //14.02.24 
 import ProductsPage from "./axiosSample/ProductsPage.jsx";
@@ -151,13 +154,15 @@ URL: https://northwind.vercel.app/api/categories
     <li><Link to="/assignment1AY">Akif-Ass1</Link></li>
     <li><Link to="/assignment1AY2">Akif-Ass1-Button</Link></li>
     <li><Link to="/assignment2AY">Akif-Ass2-SiparişListesi</Link></li>
-    <li><Link to="/assignment2AY2">Akif-Ass2-CategoriEkle</Link></li>
+    <li><Link to="/assignment2AY2">Akif-Ass2-KategoriEkle</Link></li>
     <li><Link to="/assignment1AS">Arzu-Ass1</Link></li>
     <li><Link to="/assignment1AS2">Arzu-Ass1-Button</Link></li>
     <li><Link to="/assignment1FO">Fukan-Ass1</Link></li>
     <li><Link to="/assignment1FO2">Furkan-Ass1-Button</Link></li>
     <li><Link to="/assignment1IA">İsmail-Ass1</Link></li>
     <li><Link to="/assignment1IA2">İsmail-Ass1-Button</Link></li>
+    <li><Link to="/assignment2IA">İsmail-Ass2-SiparişListesi</Link></li>
+    <li><Link to="/assignment2IA2">İsmail-Ass2-KategoriEkle</Link></li>
     <li><Link to="/assignment1BK">Burak-Ass1</Link></li>
     <li><Link to="/assignment1BK2">Burak-Ass1-Button</Link></li>
      {/* 24.02.24 10:00- ONSITE  */}
@@ -233,6 +238,8 @@ URL: https://northwind.vercel.app/api/categories
     <Route path="/assignment1FO2" element={<Assignment100224FO2/>} />
     <Route path="/assignment1IA" element={<Assignment100224IA/>} />
     <Route path="/assignment1IA2" element={<Assignment100224IA2/>} />
+    <Route path="/assignment2IA" element={<Assignment170224IA/>} />
+    <Route path="/assignment2IA2" element={<Assignment170224IA2/>} />
     <Route path="/assignment1BK" element={<Assignment100224BK/>} />
     <Route path="/assignment1BK2" element={<Assignment100224BK2/>} />
 {/* https://mrtark.github.io/itg-react-tutorial/ */}
