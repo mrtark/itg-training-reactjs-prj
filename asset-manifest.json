@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/itg-training-reactjs-prj/static/css/main.e84c7c06.css",
+    "main.js": "/itg-training-reactjs-prj/static/js/main.68915c8a.js",
+    "static/js/592.d855d001.chunk.js": "/itg-training-reactjs-prj/static/js/592.d855d001.chunk.js",
+    "index.html": "/itg-training-reactjs-prj/index.html",
+    "main.e84c7c06.css.map": "/itg-training-reactjs-prj/static/css/main.e84c7c06.css.map",
+    "main.68915c8a.js.map": "/itg-training-reactjs-prj/static/js/main.68915c8a.js.map",
+    "592.d855d001.chunk.js.map": "/itg-training-reactjs-prj/static/js/592.d855d001.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e84c7c06.css",
+    "static/js/main.68915c8a.js"
+  ]
+}
